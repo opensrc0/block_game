@@ -1,0 +1,50 @@
+body {padding: 0px; margin: 0px;}
+
+.activities {
+	float :left;
+	margin: 50px;
+	text-align: center;
+}
+
+.gameboard {
+	float :left;
+	border : 1px solid #000;
+}
+
+.ng-hide {
+	display: none;
+}
+
+#timer {
+	margin-top: 40px;
+	width: 200px;
+}
+
+.startGame {
+	margin-top: 50px;
+}
+
+.startGame button {
+	background-color: #ccc;
+	width: 100px;
+	height: 30px;
+}
+
+.gameboard .gamebox .box {
+	height: 50px;
+	width: 50px;
+	background: 000;
+	float: left;
+	border: solid 1px #000;
+}
+
+.gameboard .gamebox .red {
+	height: 50px;
+	width: 50px;
+	background: red;
+	float: left;
+	border: solid 1px #000;
+	cursor: pointer;
+}
+
+.clearfix {clear: both;}
